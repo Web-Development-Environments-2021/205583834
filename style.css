@@ -1,7 +1,146 @@
-#menu
-{
-	position: fixed;
-	width: 100%;
-	height: 35px;
-	background: white;
+body{
+	background-color: rgb(231, 202, 107);
+}
+
+.menuLink {
+	display: inline;
+	letter-spacing: 2px;
+	border:solid;
+	margin:0px;
+	background-color: brown;
+	display: inline-block;
+	height: 40px;
+	
+
+	
+  }
+
+.menuLink a{
+	text-decoration: none;
+	
+}
+
+.menuLink:hover{
+	background-color: rgb(202, 123, 92);
+}
+
+#menu{
+	background-color: rgb(96, 2, 2);
+	text-align: center;
+	margin-bottom: 5px;
+
+}
+
+h1{
+	text-align: center;
+}
+
+#about{
+	height: 200px;
+	padding-right: 0px;
+	padding-top: 0px;
+	
+}
+.flexBox{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.section{
+	background-color: brown;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding:10px;
+	margin-bottom: 30px;
+}
+
+#aboutMeDesc{
+	width: 85%;
+	float: left;
+	height: 100%;
+}
+
+#aboutMeImg{
+	width: 15%;	
+	height: 220px;
+	margin-right: 0px;
+	padding-right: 0px;
+
+}
+
+#profImage{
+	height: 210px;
+	margin-top: 10px;
+
+}
+
+p{
+	text-align: left;
+}
+
+#photos{
+	border: solid;
+	background-color: brown;
+
+	height: 300px;
+}
+
+.images{
+	height: 100%;
+	width: 40%;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 10px;
+	text-align: right
+}
+
+
+#aboutMinerva{
+	list-style-type: "\1F44D";
+}
+
+#img1Wrapper{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+#img2Wrapper{
+	width: 50%;
+	height: 100%;
+	float: left;
+
+}
+
+.imagess{
+	padding:0px;
+	margin:0px;
+	height: 80%;
+}
+
+#playlist{
+	height: 400px;
+	background-color:brown;
+	border: solid;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top:20px;
+}
+
+#youTubeIframe{
+	height: 80%;
+	width: 80%;
+}
+
+#like{
+	height: 400px;
+	background-color:brown;
+	border: solid;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top:20px;
+
 }
