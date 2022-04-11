@@ -4,62 +4,101 @@
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <div id="menu">
-      <li class="menuLink"><a href="#about">About Me</a></li>
-      <li class="menuLink"><a href="#photos">My Photos</a></li>
-      <li class="menuLink"><a href="#playlist">My Playlist</a></li>
-      <li class="menuLink"><a href="#like">Like</a></li>
-      <li class="menuLink"><a href="#qrcoder">QR code</a></li>
-      <li class="menuLink"><a href="#spa">Q&A</a></li>
-      <li class="menuLink"><a href="#contact">Contact Me</a></li>
-    </div>
-    <br/>
+  <table cellpadding="0" cellspacing="0">
+    <tr id="navMenu">
+        <td id="leftSide"></td>
+        <td class="navButton"><a href="#about" class="navButtonLink">About Me</a></td>
+        <td class="menuGap"></td>
+        <td class="navButton"><a href="#photos" class="navButtonLink">My Photos</a></td>
+        <td class="menuGap"></td>
+        <td class="navButton"><a href="#playlist" class="navButtonLink">My Playlist</a></td>
+        <td class="menuGap"></td>
+        <td class="navButton"><a href="like" class="navButtonLink">Like</a></td>
+        <td class="menuGap"></td>
+        <td class="navButton"><a href="#qrcoder" class="navButtonLink">QR Code</a></td>
+        <td class="menuGap"></td>
+        <td class="navButton"><a href="#spa" class="navButtonLink">Q&A</a></td>
+        <td class="menuGap"></td>
+        <td class="navButton"><a href="#contact" class="navButtonLink">Contact Me</a></td>
+        <td id="rightSide"></td>
+    </tr>        
+</table>
 
 <section id="about" class="flexBox section">
-  <div id="aboutMeDesc">
-    <h1>About Me</h1>
-    <ul id="aboutMinerva">
-      <li>Minerva worked for two years at the Ministry of Magic and later returned to Hogwarts, where she became Head of Gryffindor House and the Transfiguration professor</li>
-      <li>Minerva greatly helped the Ministry of Magic's resistance through spying on Death Eaters and bringing the Aurors crucial information on their activities. </li>
-      <li>Minerva became concurrently, at differing times, Deputy Headmistress and Headmistress of Hogwarts</li>
-      <li>Minerva survived the Second Wizarding War and became Headmistress full time, a title she still held into the early 2020s</li>
-    </ul>
-  </div>
-  <div id aboutMeImg>
-    <img src="images/profImage.jpg" id="profImage">
-  </div>
+  <table cellpadding="0" cellspacing="0">
+    <tr id="aboutMe"> 
+        <td id="aboutMeTitle">
+            <h1>About Me</h1>
+            <ul id="aboutUl">
+                <li>Minerva worked for two years at the Ministry of Magic and later returned to Hogwarts, where she became Head of Gryffindor House and the Transfiguration professor</li>
+                <li>Minerva greatly helped the Ministry of Magic's resistance through spying on Death Eaters and bringing the Aurors crucial information on their activities. </li>
+                <li>Minerva became concurrently, at differing times, Deputy Headmistress and Headmistress of Hogwarts</li>
+                <li>Minerva survived the Second Wizarding War and became Headmistress full time, a title she still held into the early 2020s</li>
+              </ul>
+        </td>
+        <td id="aboutMeImg"><img src="images/profImage.jpg" id="profImage" height="201.33"> 
+        </td>
+    </tr>
+</table>
 </section>
 
 <section id="photos" class="section">
-  <h1>My Photos</h1>
-  <div id="img1Wrapper"><img src="images/image1.jpeg" class="imagess"></div>
-  <div id="img2Wrapper"><img src="images/image2.jpg" class="imagess"></div>
+  <table cellpadding="0" cellspacing="0">
+    <tr id="photosTitleTr" >
+        <td colspan="4">
+            <h1>My Photos</h1>
+        </td>
+    </tr>
+    <tr>
+        <td class="imageWrapper"><img src="images/image1.jpeg" class="galleryImage"></td>
+        <td class="imageWrapper"><img src="images/image2.jpg" class="galleryImage"></td>
+        <td class="imageWrapper"><img src="images/image3.jpg" class="galleryImage"></td>
+        <td class="imageWrapper"><img src="images/image4.jpeg" class="galleryImage"></td>
+    </tr>
+    <tr>
+        <td class="imageWrapper"><img src="images/image1.jpeg" class="galleryImage"></td>
+        <td class="imageWrapper"><img src="images/image2.jpg" class="galleryImage"></td>
+        <td class="imageWrapper"><img src="images/image3.jpg" class="galleryImage"></td>
+        <td class="imageWrapper"><img src="images/image4.jpeg" class="galleryImage"></td>
+    </tr>
+</table>
 </section>
 
 
-<section id="playlist" class="section">
+<section id="playlist"  class="section">
+  <table id="playlisti" cellpadding="0" cellspacing="0">
+    <tr id="playlistTrTitle">
+        <td colspan="3">
+        <h1>My Playlist</h1>
+        </td>
+    </tr> 
+    <tr id="playlistTrIframeWrapper">   
+        <td id="leftSidePlaylist"></td>
+        <td id="playlistTdTitle">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2Tpb1XyqGOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+        </td>
+        <td id="rightSidePlaylist"></td>
 
-<h1>my playlist</h1>
-<br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2Tpb1XyqGOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
-<br/>
+    </tr>
+</table>
 </section>
 
 <section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<h1>give me a like</h1>
-<br/>
-<br/>
-<br/>
+  <table>
+    <tr>
+        <td colspan="3"><h1>Give mcgonagall a Like</h1></td>
+    </tr>
+
+    <tr>
+        <td id="lefSideLike"></td>
+        <td id="LikeButton">
+            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </td>
+        <td id="rightSideLike"></td>
+
+    </tr>
+</table>
+
 </section>
 
 <section id="qrcoder" class="section">
