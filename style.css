@@ -162,7 +162,8 @@ tr{
 }
 
 
-#qrcoder{
+#qrcoderImg {
+    width: 30px;
 
 
 }
