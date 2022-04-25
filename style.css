@@ -13,6 +13,7 @@ table{
     z-index: 100;
     position: fixed;
     margin-bottom: 10px;
+    background-color:  rgb(96, 2, 2);
 
 
 }
@@ -214,5 +215,3 @@ tr{
     padding-top: 0px;
     
 }
-
-
